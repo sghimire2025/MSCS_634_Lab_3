@@ -1,0 +1,17 @@
+[project]
+name = "k-means-k-medoids"
+version = "0.1.0"
+description = "Clustering Analysis Using K-Means and K-Medoids Algorithms"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "scikit-learn",
+  "jupyterlab",
+  "ipykernel",
+  "scikit-learn-extra"
+]
+
+[tool.uv]
+# optional: uv will create/use a .venv by default when you run uv venv/uv run
