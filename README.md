@@ -33,7 +33,6 @@ uv sync
 uv run jupyter lab
 ```
 
-> If Jupyter isn’t included in your project dependencies, install it once:
 ```bash
 uv add --dev notebook jupyterlab
 uv sync
@@ -104,7 +103,6 @@ jupyter lab
 ---
 
 ## Results Summary (Key Insights)
-> Replace the placeholders below with the values from your notebook output.
 
 - **K-Means**
   - Silhouette Score: **0.2849**
